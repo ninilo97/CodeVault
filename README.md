@@ -1,7 +1,7 @@
 # CodeVault
 
 ## CSES
-- Graph Algorithms (7/36)
+- Graph Algorithms (9/36)
   - ✅ Counting Rooms
   - ✅ Labyrinth
   - ✅ Building Roads
@@ -9,8 +9,8 @@
   - ✅ Building Teams
   - ✅ Round Trip
   - ✅ Monsters
-  - ❌ Shortest Routes I
-  - ❌ Shortest Routes II
+  - ✅ Shortest Routes I
+  - ✅ Shortest Routes II
   - ❌ High Score
   - ❌ Flight Discount
   - ❌ Cycle Finding
