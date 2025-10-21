@@ -1,40 +1,21 @@
 # CodeVault
 
-## CSES
-- Graph Algorithms (10/36)
-  - ✅ Counting Rooms
-  - ✅ Labyrinth
-  - ✅ Building Roads
-  - ✅ Message Route
-  - ✅ Building Teams
-  - ✅ Round Trip
-  - ✅ Monsters
-  - ✅ Shortest Routes I
-  - ✅ Shortest Routes II
-  - ✅ High Score
-  - ❌ Flight Discount
-  - ❌ Cycle Finding
-  - ❌ Flight Routes
-  - ❌ Round Trip II
-  - ❌ Course Schedule
-  - ❌ Longest Flight Route
-  - ❌ Game Routes
-  - ❌ Investigation
-  - ❌ Planets Queries I
-  - ❌ Planets Queries II
-  - ❌ Planets Cycles
-  - ❌ Road Reparation
-  - ❌ Road Construction
-  - ❌ Flight Routes Check
-  - ❌ Planets and Kingdoms
-  - ❌ Giant Pizza
-  - ❌ Coin Collector
-  - ❌ Mail Delivery
-  - ❌ De Bruijn Sequence
-  - ❌ Teleporters Path
-  - ❌ Hamiltonian Flights
-  - ❌ Knight's Tour
-  - ❌ Download Speed
-  - ❌ Police Chase
-  - ❌ School Dance
-  - ❌ Distinct Routes
+## CSES ([Profile](https://cses.fi/problemset/user/59395))
+- [01/24] Introductory Problems
+- [??/??] Sorting and Searching
+- [??/??] Dynamic Programming
+- [15/36] Graph Algorithms
+- [??/??] Range Queries
+- [??/??] Tree Algorithms
+- [01/37] Mathematics
+- [??/??] String Algorithms
+- [??/??] Geometry
+- [??/??] Advanced Techniques
+- [??/??] Sliding Window Problems
+- [??/??] Interactive Problems
+- [??/??] Bitwise Operations
+- [??/??] Construction Problems
+- [??/??] Advanced Graph Problems
+- [??/??] Counting Problems
+- [??/??] Additional Problems I
+- [??/??] Additional Problems II
