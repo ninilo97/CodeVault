@@ -4,3 +4,4 @@ template.cpp
 run.sh
 *.json
 *.DS_Store
+*.pdf
