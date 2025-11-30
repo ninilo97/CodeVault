@@ -3,14 +3,14 @@
 ## CSES ([Profile](https://cses.fi/problemset/user/59395))
 - [01/24] Introductory Problems
 - [??/??] Sorting and Searching
-- [??/??] Dynamic Programming
+- [01/??] Dynamic Programming
 - [15/36] Graph Algorithms
-- [??/??] Range Queries
+- [07/??] Range Queries
 - [??/??] Tree Algorithms
 - [01/37] Mathematics
 - [??/??] String Algorithms
 - [??/??] Geometry
-- [??/??] Advanced Techniques
+- [01/??] Advanced Techniques
 - [??/??] Sliding Window Problems
 - [??/??] Interactive Problems
 - [??/??] Bitwise Operations
