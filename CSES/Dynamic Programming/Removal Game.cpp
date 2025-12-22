@@ -3,25 +3,25 @@ using namespace std;
 typedef long long ll;
 typedef long double ld;
 
-long long dp[5001][5001];
-
-long long calc(vector<long long>& vec, int l, int r) {
-    if (l > r) return 0;
-    if (dp[l][r] != -1) return dp[l][r];
-    return dp[l][r] = max(vec[l] - calc(vec, l + 1, r), vec[r] - calc(vec, l, r - 1));
-}
-
 void solve() {
-    memset(dp, -1, sizeof(dp));
-
-    long long n, total = 0; cin >> n;
-    vector<long long> vec(n);
+    long long n; cin >> n;
+    vector<long long> vec(n), pf(n, 0);
+    vector<vector<long long>> dp(n, vector<long long>(n, 0));
     for (int i = 0; i < n; ++i) {
         cin >> vec[i];
-        total += vec[i];
+        dp[i][i] = vec[i];
+        pf[i] += vec[i];
+        if (i) pf[i] += pf[i - 1];
     }
-    long long diff = calc(vec, 0, n - 1);
-    cout << (total + diff) / 2;
+    auto sum = [&](int l, int r) -> long long {
+        return pf[r] - (l ? pf[l - 1] : 0);
+    };
+    for (int len = 1; len < n; ++len) {
+        for (int l = 0, r = l + len; r < n; ++l, ++r) {
+            dp[l][r] = max(vec[l] + (sum(l + 1, r) - dp[l + 1][r]), vec[r] + (sum(l, r - 1) - dp[l][r - 1]));
+        }
+    }
+    cout << dp[0][n - 1] << '\n';
 }
 
 int main() {
