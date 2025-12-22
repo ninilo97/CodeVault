@@ -1,5 +1,8 @@
 # CodeVault
 
+## Advent of Code
+- [12/12] 2025
+
 ## CSES ([Profile](https://cses.fi/problemset/user/59395))
 - [01/24] Introductory Problems
 - [??/??] Sorting and Searching
