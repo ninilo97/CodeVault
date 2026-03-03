@@ -58,7 +58,7 @@ long long solveBottomUp() {
  
 int main() {
     ios_base::sync_with_stdio(false); cin.tie(NULL);
-	// cout << solveTopUp() << '\n';
-	cout << solveBottomUp() << '\n';
+	cout << solveTopDown() << '\n';
+	// cout << solveBottomUp() << '\n';
 	return 0;
 }
